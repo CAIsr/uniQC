@@ -1,4 +1,4 @@
-# uniQC - Unified NeuroImaging Quality Control (uniQC) toolbox
+# uniQC - Unified NeuroImaging Quality Control toolbox
 
 ## Overview
 
