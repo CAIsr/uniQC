@@ -12,7 +12,7 @@ Download the current version of SPM from http://www.fil.ion.ucl.ac.uk/spm/softwa
 
 A thorough description of uniQC can be found here.
 
-The best starting point are the demo scripts contained in analysis/demo/[MrClassName]. Details to each demo are given below.
+The best starting point are the demo scripts contained in demo/[MrClassName]. Details to each demo are given below.
 
 The example data can be found [here](https://cloudstor.aarnet.edu.au/plus/s/kmw6b1Ts4NrNqxp). Please put the data directory at the same level as the code, demo and test directory.
 
