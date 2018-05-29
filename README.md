@@ -17,6 +17,8 @@ The best starting point are the demo scripts contained in analysis/demo/[MrClass
 The example data can be found here. Please put the data directory at the same level as the code, demo and test directory.
 
 ## Demos
+
+### MrImage
 `MrImage/demo_add_overlay.m`: Illustrates how to use plot with overlayImages and compares it to an implementation using native MATLAB code.
 
 `MrImage/demo_constructor.m`: Illustrates how MrImage objects can be created from nifti files, folders and Philips par/rec files.
@@ -35,7 +37,7 @@ The example data can be found here. Please put the data directory at the same le
 
 `MrImage/demo_split_complex.m`: Illustrates how complex data are automatically split and combined to perform SPM pre-processing operations.
 
-
+### MrSeries
 `MrSeries/demo_fmri_qa.m`: Illustrates how to combine different visualisations and image operations to inspect an fMRI time series.
 
 `MrSeries/demo_model_estimation_1st_level.m`: Illustrates how to specify a 1st level model using MrGlm and estimating its parameters using the classical restricted maximum Likelihood approach within SPM (Kiebel and Holmes, 2007). Note that it requires the output of MrSeries/demo_preprocessing.
@@ -46,15 +48,19 @@ The example data can be found here. Please put the data directory at the same le
 
 `MrSeries/demo_snr_analysis_mrseries.m`: Example of a tSNR assessment in different ROIS illustrating the impact of different pre-processing steps on tSNR in grey matter.
 
-
+### MrDimInfo
 `MrDimInfo/demo_dim_info.m`: The MrDimInfo class implements data selection and access used in plots and computations. The demo covers the creation of dimInfo objects, retrieving parameters via get_dims and dimInfo.dimLabel, adding/setting dimensions, retrieving array indices and sampling points, selecting a subset of dimensions and creating dimInfos from files. Note that dimInfo does not know about the affineGeometry, i.e. all sampling points are with reference to the data matrix.
 
+### MrAffineGeometry
 `MrAffineGeometry/demo_affine_geometry.m`: Exemplifies creating of an MrAffineGeometry object using a nifti file, a Philips par/rec file, prop/val pairs or an affine transformation matrix.
 
+### MrImageGeometry
 `MrImageGeometry/demo_image_geometry.m`: Shows how an MrImageGeometry object can be created from file or via MrDimInfo and MrAffineGeometry objects.
 
+### MrDataNd
 `MrDataNd/demo_save.m`: Illustrates how data are split to allow compatibility with SPM read-in.
 
+### MrCopyData
 `MrCopyData/demo_copy_data.m`: Shows the functionality of MrCopyData for deep cloning and recursive operations.
 
 
