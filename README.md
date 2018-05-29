@@ -6,7 +6,7 @@ The challenge of unified and comprehensive quality control (QC) in (functional) 
 
 ## Installation
 
-Download the current version of SPM from http://www.fil.ion.ucl.ac.uk/spm/software/ and add the code directory to you MATLAB path. Then clone or download the uniQC repository and **recursively** add this to your MATLAB path as well. Type `I = MrImage` to test your setup.
+Download the current version of [SPM](http://www.fil.ion.ucl.ac.uk/spm/software/) and add the code directory to you MATLAB path. Then clone or download the uniQC repository and **recursively** add this to your MATLAB path as well. Type `I = MrImage` to test your setup.
 
 ## Getting started
 
